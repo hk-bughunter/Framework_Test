@@ -1,0 +1,16 @@
+﻿goto,http://www.baidu.com
+input,xpath=//input[@id='kw'],python
+singleclick,id=su
+delay,3
+checklen,xpath=//div[@id='content_left']//h3,14
+goto,http://192.168.153.129/agileone/
+input,id=username,admin
+input,id=password,admin
+delay,1
+singleclick,id=login
+delay,10
+#checktext,id=welcome,admin
+singleclick,xpath=//a[text()='※ 用户故事 ※']
+singleclick,xpath=//a[text()='注销']
+delay,2
+#over

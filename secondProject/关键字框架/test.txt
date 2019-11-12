@@ -1,0 +1,15 @@
+#登录
+goto,http://192.168.3.180:8080/woniuboss/login
+input,xpath=//input[@name='userName'],WNCD000
+input,xpath=//input[@name='userPass'],woniu123
+input,xpath=//input[@name='checkcode'],0000
+singleclick,xpath=//button[@onclick='login();']
+#检查简历资源页面新增功能
+#上传简历资源
+singleclick,xpath=//*[@id="nav2"]/div[4]/div[1]/a
+delay,2
+singleclick,xpath=//a[@href='/woniuboss/market']
+singleclick,xpath=//*[@id="queryDiv"]/div[2]/button[3]
+pull_down,xpath=//*[@id="regionSelect"],1
+file_upload,xpath=//input[@id="files"],D:\专属简历模板.xls
+singleclick,xpath=//*[@id="upRes-modal"]/div/div/div[3]/button

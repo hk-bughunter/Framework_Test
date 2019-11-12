@@ -1,0 +1,11 @@
+# 错误消息日志
+
+页面未找到该元素:('xpath', '//button[@class="btn btn-main"]') 操作类型:CLICK 时间:2019-11-04 17:57:25 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191104175725.png
+页面未找到该元素:('link text', '服装') 操作类型:CLICK 时间:2019-11-04 17:57:32 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191104175732.png
+页面未找到该元素:('xpath', "(.//*[normalize-space(text()) and normalize-space(.)='关注'])[1]/following::img[1]") 操作类型:CLICK 时间:2019-11-04 17:57:38 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191104175738.png
+页面未找到该元素:('xpath', "(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/following::span[1]") 操作类型:CLICK 时间:2019-11-04 17:57:44 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191104175744.png
+页面未找到该元素:('xpath', '//dl[2]/dd/ul/li[2]/span') 操作类型:CLICK 时间:2019-11-04 17:57:49 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191104175749.png
+页面未找到该元素:('xpath', '//button[@class="btn btn-main"]') 操作类型:CLICK 时间:2019-11-04 17:59:45 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191104175945.png
+页面未找到该元素:('id', 'account') 操作类型:INPUT 时间:2019-11-05 15:37:15 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191105153715.png
+页面未找到该元素:('name', 'password') 操作类型:INPUT 时间:2019-11-05 15:37:21 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191105153721.png
+页面未找到该元素:('xpath', '//*[@id="main"]/div/div/form/ul/li[4]/button') 操作类型:CLICK 时间:2019-11-05 15:37:26 截图已保存在C:\Users\Administrator.USER-20190305CL\PycharmProjects\thirdProject\POM\imgs下 文件名为:20191105153726.png

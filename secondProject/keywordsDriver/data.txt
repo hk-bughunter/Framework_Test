@@ -1,0 +1,17 @@
+#goto,http://www.baidu.com
+#suspenchoice,xpath=//*[@id='u1']/a[9],xpath=//a[@name='tj_mp3']
+#input,xpath=//input[@id='kw'],python
+#singleclick,id=su
+#delay,3
+#checklen,xpath=//div[@id='content_left']//h3,15
+goto,http://192.168.3.134:8081/agileone/Agileone_1.2/
+input,id=username,admin
+input,id=password,admin
+delay,1
+#singleclick,id=login
+#delay,3
+checktext,id=welcome,下午好: Administrator admin
+#singleclick,xpath=//a[text()='※ 用户故事 ※']
+#singleclick,xpath=//a[text()='注销']
+#delay,2
+#over
